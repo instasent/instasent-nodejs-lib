@@ -19,9 +19,24 @@ instasent.send_sms.create('My company', '+34666666666', 'test message', function
 ```
 ## Available functions
 ```
+SMS
 instasent.send_sms.create(sender, to, text, callback)
 instasent.get_sms.read(page, per_page, callback)
 instasent.get_sms_by_id.read(message_id, callback)
+
+VERIFY
+instasent.request_verify.create(sender, to, text, callback) // text must include %token% string
+instasent.check_verify.create(id, token)
+instasent.get_verify.read( page, per_page)
+instasent.get_verify_by_id.read(id)
+
+LOOKUP
+instasent.do_lookup.create(to)
+instasent.get_lookup_by_id.read(id)
+instasent.get_lookups.read(page, per_page)
+
+ACCOUNT
+instasent.get_account_balance.read()
 ```
 ## Documentation
 Complete documentation at :
