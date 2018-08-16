@@ -1,6 +1,6 @@
 {
   "name": "instasent",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A Nodejs wrapper library for Instasent's API",
   "main": "./lib/client.js",
   "scripts": {
