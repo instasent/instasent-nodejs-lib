@@ -2,7 +2,7 @@ Welcome to __Instasent Node.js SDK__. This repository contains Node.js SDK for I
 
 # Notice!
 
-> **Verify** product is currently deprecated and will be removed in the next release. The same functionality can be easily implemented by sending an SMS. If you need help migrating please contact usage
+> **Verify** product is currently deprecated and will be removed in the next release. The same functionality can be easily implemented by sending an SMS. If you need help migrating please contact us
 
 ## Installation
 
